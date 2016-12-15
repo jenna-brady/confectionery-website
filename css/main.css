@@ -29,6 +29,10 @@ h2{
   font-family: 'Norican', cursive;
 }
 
+h3{
+  color: #50332e;
+}
+
 .section-header{
   color: #b7957f;
 }
@@ -37,6 +41,9 @@ h2{
   color: #50332e;
   text-align: left;
 
+}
+.nav a:hover {
+  color: white;
 }
 
 
@@ -56,7 +63,14 @@ h2{
 .btn {
 background-color: rgba(0, 0, 0, 0.5); /* 70% transparent black */
 border: 1px solid #333; rgba(0, 0, 0, 0.5); /* 70% transparent black */
+background-color: #b7957f;
+color: white;
 }
+.btn a:hover {
+background-color: rgba(0, 0, 0, 0.5); /* 70% transparent black */
+  color: #50332e;
+}
+
 section {
   text-align: center;
 }
@@ -67,6 +81,7 @@ section {
  img{
    width: 100%;
  }
+
 
 @media only screen and (min-width: 25em) {
 
