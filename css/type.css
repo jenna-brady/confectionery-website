@@ -1098,11 +1098,6 @@ caption {
     width: 1.3em;
   }
 
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
-  }
 
   input,
   option,

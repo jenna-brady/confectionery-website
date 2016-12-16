@@ -55,9 +55,11 @@ h3{
 .banner-content {
   color: white;
   position: absolute;
+  width: 100%
 
   left: 0%;
-  top:1%;
+  bottom:.5px;
+    background: url("../images/bomb.svg") .75em 180px / 100px no-repeat;
 }
 
 .btn {
@@ -96,6 +98,13 @@ section {
 .location-text{
   text-align: left;
 }
+.banner-content {
+  color: white;
+  position: absolute;
+  width: 100%
+
+  left: 0%;
+  bottom:10%;
 }
 
 @media only screen and (min-width: 60em) {
