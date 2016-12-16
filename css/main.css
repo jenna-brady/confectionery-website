@@ -57,7 +57,7 @@ h1, h2{
 .btn {
 background-color: #333; rgba(0, 0, 0, 0.5); /* 70% transparent black */
 border: 1px solid #333; rgba(0, 0, 0, 0.5); /* 70% transparent black */
-background-color: #b7957f;
+background-color: #50332e;
 color: white;
 }
 .btn a:hover {
@@ -90,7 +90,7 @@ section {
     text-align: left;
   }
   .nav{
-    text-align: right;
+    text-align:right;
   }
 .location-text{
   text-align: left;
@@ -105,6 +105,9 @@ section {
 }
 
 @media only screen and (min-width: 60em) {
+  .nav{
+    text-align:right;
+  }
 }
 
 @media only screen and (min-width: 90em) {
