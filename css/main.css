@@ -20,14 +20,11 @@ a {
   background-color: #b7957f;
 }
 
-h1{
+h1, h2{
   color: white;
   font-family: 'Norican', cursive;
 }
 
-h2{
-  font-family: 'Norican', cursive;
-}
 
 h3{
   color: #50332e;
@@ -59,7 +56,6 @@ h3{
 
   left: 0%;
   bottom:.5px;
-    background: url("../images/bomb.svg") .75em 180px / 100px no-repeat;
 }
 
 .btn {
@@ -84,6 +80,11 @@ section {
    width: 100%;
  }
 
+ footer {
+  background: url("../images/bomb.svg") center bottom / cover;
+  background-size: 67px auto;
+  background-color: #50332e;;
+  color: #fff;
 
 @media only screen and (min-width: 25em) {
 
