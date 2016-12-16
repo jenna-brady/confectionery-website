@@ -26,10 +26,6 @@ h1, h2{
 }
 
 
-h3{
-  color: #50332e;
-}
-
 .section-header{
   color: #b7957f;
 }
@@ -59,7 +55,7 @@ h3{
 }
 
 .btn {
-background-color: rgba(0, 0, 0, 0.5); /* 70% transparent black */
+background-color: #333; rgba(0, 0, 0, 0.5); /* 70% transparent black */
 border: 1px solid #333; rgba(0, 0, 0, 0.5); /* 70% transparent black */
 background-color: #b7957f;
 color: white;
