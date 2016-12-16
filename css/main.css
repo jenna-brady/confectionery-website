@@ -5,8 +5,8 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: 'Norican', cursive;
-  font-family: "Raleway", sans-serif;
+  font-family: " Norican ", cursive;
+  font-family: " Raleway ", sans-serif;
 
 }
 
@@ -21,7 +21,7 @@ a {
 
 h1, h2 {
   color: white;
-  font-family: 'Norican', cursive;
+  font-family: " Norican ", cursive;
 }
 
 .section-header {
@@ -79,10 +79,6 @@ footer {
   color: #fff;
 }
 
-@media only screen and (min-width: 25em) {
-
-}
-
 @media only screen and (min-width: 38em) {
 
   .about-text {
@@ -104,11 +100,4 @@ footer {
     left: 0%;
     bottom: 10%;
   }
-}
-
-@media only screen and (min-width: 60em) {
-
-}
-
-@media only screen and (min-width: 90em) {
 }
